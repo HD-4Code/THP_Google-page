@@ -1,0 +1,200 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Parti Header */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    margin-top: 10px;
+    
+}
+
+header .right {
+  display: flex;
+    
+}
+
+header p{
+    margin-right:  20px;
+    color: #525252;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+header p:hover{
+    text-decoration: underline;
+    color: #6d6d6d;
+}
+
+header .right .dotes_icon{
+    height: 24px;
+    width: 24px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+header .right p.user{
+    font-size: 29px;
+    margin-top: 6px;
+    margin-right: -4px;
+    color: #595959;
+}
+
+header .right p.user:hover{
+  color: #6d6d6d;
+
+}
+
+  /* ------Fin Header------- */
+
+
+  /* Parti Main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+
+}
+
+
+.main .form{
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+  margin-top: 27px;
+}
+
+.main .form input{
+  padding: 14px 30px;
+  border-radius: 80px;
+  border: 1px solid #DFE1E5;
+  outline: none;
+  width: auto;
+  position: relative;
+}
+
+.main .form input:hover,.main .form input:focus{
+  box-shadow: 0px 2px 7px 2px rgba(227, 227, 227, 0.79);
+}
+
+.main .loupe{
+  height: 16px;
+  width: 16px;
+  float: left;
+  margin-top: -30px;
+  margin-left: 15px;
+  position: relative;
+  color: #9AA0A6;
+
+}
+
+.main .mic {
+  height: 24px;
+  width: 24px;
+  float: right;
+  margin-top: -35px;
+  margin-right: 17px;
+  position: relative;
+  cursor: pointer;
+}
+
+.main .buttons{
+  border: none;
+  line-height: 27px;
+  color: #5F6368;
+  margin-top: 25px ;
+  
+}
+
+.main .buttons button{
+  font-size: 14px;
+  padding: 10px 18px;
+  margin: 4px;
+  background-color: #F8F9FA;
+  border: none;
+  border-radius: 5px;
+  color: #202124;
+
+}
+
+.main .buttons button:hover{
+  border: 1px solid #DADCE0 ;
+}
+
+.main .lien_trad {
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.main .lien_trad a{
+  text-decoration: none;
+  color: #1A0DAB;
+}
+.main .lien_trad a:hover{
+  text-decoration: underline;
+}
+
+/* -------Fin Main------- */
+
+
+      /* Footer */
+
+footer{
+  background-color: #F2F2F2 ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 14px;
+}
+
+footer .localisation{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  color: #787878;
+}
+
+
+footer .bottom_link{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 8px ;
+
+}
+
+footer .bottom_link a{
+  text-decoration: none;
+  color: #686868;
+}
+
+footer .left{
+  margin-left: 25px;
+}
+footer .mid img{
+  margin-right: 5px;
+}
+
+footer .right{
+  margin-right: 25px;
+}
+
+
+
+
+
+/* -------Footer------- */
